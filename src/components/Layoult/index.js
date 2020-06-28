@@ -1,10 +1,14 @@
 import React from 'react'
 
-import {Grid} from './styles'
+import { Grid } from './styles'
 
-const Layoult = ()=>{
-  return(
-    <Grid/>
+import ServerList from '../ServerList'
+
+const Layoult = () => {
+  return (
+    <Grid>
+      <ServerList />
+    </Grid>
   )
 }
 
