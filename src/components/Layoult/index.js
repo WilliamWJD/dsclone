@@ -5,6 +5,7 @@ import { Grid } from './styles';
 import ServerList from '../ServerList';
 import ServerName from '../ServerName';
 import ChanelInfo from '../ChanelInfo';
+import ChanelList from '../ChanelList';
 
 const Layoult = () => {
   return (
@@ -12,6 +13,7 @@ const Layoult = () => {
       <ServerList />
       <ServerName />
       <ChanelInfo />
+      <ChanelList />
     </Grid>
   );
 };
