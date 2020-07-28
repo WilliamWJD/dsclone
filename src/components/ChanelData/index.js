@@ -36,7 +36,19 @@ const ChanelData = () => {
             }
           />
         ))}
+        <ChanelMessage
+          author="Roberto carlos"
+          date="28/07/2020"
+          content={
+            <>
+              <Mention>@william dias</Mention>, me carrega no LOL
+            </>
+          }
+          hasMention
+          isBot
+        />
       </Messages>
+
       <InputWrapper>
         <Input placeholder="Conversar em #chat-livre" />
         {/* <InputIcon /> */}
