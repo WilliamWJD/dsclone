@@ -7,6 +7,7 @@ import ServerName from '../ServerName';
 import ChanelInfo from '../ChanelInfo';
 import ChanelList from '../ChanelList';
 import UserInfo from '../UserInfo';
+import UserList from '../UserList';
 
 const Layoult = () => {
   return (
@@ -16,6 +17,8 @@ const Layoult = () => {
       <ChanelInfo />
       <ChanelList />
       <UserInfo />
+      <div />
+      <UserList />
     </Grid>
   );
 };
